@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/nold/Nextcloud/CAD/KiCAD/dock64/dock64.kicad_sch</source>
+    <date>Thu Oct 19 19:00:56 2023</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>dock64.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C_Small</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba697886-a698-4898-b774-92e851152e02</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C_Small</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2a84eea-7433-4951-aa26-30bd180ba8cb</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>C_Small</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ada10f6-b921-439e-8462-5bebeab79c9b</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C_Small</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c1ec5bf-92a5-4651-ae39-b478f0b1209c</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eea2aba8-97ea-4d0c-8a55-ce6ce35d366f</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff1fc88a-df4b-4840-8463-463a95f6c0c2</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdbadc1d-2485-4926-b1e2-981cbfcfbbef</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>PI5A3157CEX</value>
+      <footprint>KiCad:SOT65P210X110-6N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/PI5A3157.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">PI5A3157CEX</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pi5a3157cex/diodes-incorporated</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">PI5A3157CEX</field>
+        <field name="Mouser Part Number">729-PI5A3157CEX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PI5A3157CEX?qs=hFKXOjF5MkYOFZffF%2FEnpw%3D%3D</field>
+      </fields>
+      <libsource lib="PI5A3157CEX" part="PI5A3157CEX" description="Multiplexer Switch ICs Low Voltage SPDT Analog Switch"/>
+      <property name="Height" value="1.1"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="PI5A3157CEX"/>
+      <property name="Mouser Part Number" value="729-PI5A3157CEX"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PI5A3157CEX?qs=hFKXOjF5MkYOFZffF%2FEnpw%3D%3D"/>
+      <property name="Arrow Part Number" value="PI5A3157CEX"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pi5a3157cex/diodes-incorporated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="Multiplexer Switch ICs Low Voltage SPDT Analog Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38bdc0c0-ec7e-4eed-a746-e768e1b12775</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SS-53000-001</value>
+      <footprint>symbols-footprints:STEWART_SS-53000-001</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SS-53000-001/Stewart+Connector/view-part/?ref=eda</field>
+        <field name="Description">
+HDMI Connector | Right Angle | Without Flange | -20C to 85C
+</field>
+        <field name="MANUFACTURER">BelFuse</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.18 mm</field>
+        <field name="MF">Stewart Connector</field>
+        <field name="MP">SS-53000-001</field>
+        <field name="PARTREV">A0</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4628816&amp;manufacturer=Stewart Connector&amp;part_name=SS-53000-001&amp;search_term=hdmi connector</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SS-53000-001/Stewart+Connector/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="SS-53000-001" part="SS-53000-001" description=""/>
+      <property name="MF" value="Stewart Connector"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="6.18 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SS-53000-001/Stewart+Connector/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="A0"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SS-53000-001/Stewart+Connector/view-part/?ref=snap"/>
+      <property name="MP" value="SS-53000-001"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4628816&amp;manufacturer=Stewart Connector&amp;part_name=SS-53000-001&amp;search_term=hdmi connector"/>
+      <property name="Description" value="&#xA;HDMI Connector | Right Angle | Without Flange | -20C to 85C&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="BelFuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>537f26d3-0724-408b-8627-cf33ab93b422</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>Bo</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cbc9f9d-7825-4795-b6c6-cc424210616b</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>Go</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05409f29-3951-4206-8f7f-3b9bf0b9794b</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>Ro</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac08d2b3-9f19-41d1-8743-0daaeacdee4b</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>Ho</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdbe680c-bf44-46d2-973b-6393909b228c</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>Vo</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bafb62b8-1e41-44d7-b8d1-3d357d4c3a56</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>Bi</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1db87eb7-a9df-450a-ac72-5c3bcb0b20c1</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>Gi</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dacb8195-e744-47f0-9f06-7a6821169b35</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>Ri</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07a6afc1-4f9e-46c8-b1ca-6ce8e7a09aa7</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>Hi</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1b37e8a-ab2a-42cd-8ecf-0806ae2602b7</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>Vi</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5da05bab-979c-462e-ad35-d2e06432170c</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>P1i</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>124c315b-100f-4a07-8453-2d42535b76ed</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>P1o</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45296cb8-5bad-4eae-a0e4-0978e8af097a</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>5v</value>
+      <footprint>symbols-footprints:CasPowerPad 2x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcfaccd8-d673-4b0c-823b-a62eea1b0b47</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>3v3</value>
+      <footprint>nold-customs:nolds-TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5718fc8-8ba7-4c72-9ca5-9d28e65ce9c3</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>GND</value>
+      <footprint>symbols-footprints:CasPowerPad 2x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9b1e7cc-7b51-4014-b1cd-7b4318014dff</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>AL</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25cf34c6-ffbd-4d16-9bae-a701f57e4c35</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>AR</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74a1453d-83b1-4efe-9345-f97983923fdf</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>SENSE</value>
+      <footprint>symbols-footprints:CasPowerPad 1x1</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb025d4e-d730-46b3-9330-0378f48051ae</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>P2</value>
+      <footprint>nold-customs:nolds-TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85568e48-dc9a-4536-851e-1a343b423d82</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>P3</value>
+      <footprint>nold-customs:nolds-TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69ab9adc-ecfe-414c-b99b-40b3f60f2ca9</tstamps>
+    </comp>
+    <comp ref="TP21">
+      <value>P4</value>
+      <footprint>nold-customs:nolds-TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e800b19-7b5e-4927-a86d-1c7b10ee2313</tstamps>
+    </comp>
+    <comp ref="TP22">
+      <value>CRG</value>
+      <footprint>symbols-footprints:CasPowerPad 2x2</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19a38155-6325-4457-8ed5-f29b86d297ea</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MAX4885ETJ_</value>
+      <footprint>symbols-footprints:QFN50P500X500X80-33N</footprint>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MAX4885ETJ+/Maxim+Integrated/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">Complete VGA Multiplexer 32-Pin TQFN EP</field>
+        <field name="Description">
+Analog Switch/Analog Multiplexer Seven 2:1 32-Pin TQFN EP Tube
+</field>
+        <field name="MF">Maxim Integrated Products</field>
+        <field name="MP">MAX4885ETJ+</field>
+        <field name="PACKAGE">TQFN-32 Maxim</field>
+        <field name="PRICE">None</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MAX4885ETJ+/Maxim+Integrated/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="MAX4885ETJ_" part="MAX4885ETJ_" description=""/>
+      <property name="MF" value="Maxim Integrated Products"/>
+      <property name="DESCRIPTION" value="Complete VGA Multiplexer 32-Pin TQFN EP"/>
+      <property name="PACKAGE" value="TQFN-32 Maxim"/>
+      <property name="PRICE" value="None"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/MAX4885ETJ+/Maxim+Integrated/view-part/?ref=eda"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/MAX4885ETJ+/Maxim+Integrated/view-part/?ref=snap"/>
+      <property name="MP" value="MAX4885ETJ+"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="Description" value="&#xA;Analog Switch/Analog Multiplexer Seven 2:1 32-Pin TQFN EP Tube&#xA;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dock64.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c5935ca-7981-4cdb-b16a-c8c507bf7699</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MAX4885ETJ_" part="MAX4885ETJ_">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX4885ETJ_</field>
+        <field name="Footprint">MAX4885ETJ_:QFN50P500X500X80-33N</field>
+        <field name="MF">Maxim Integrated Products</field>
+        <field name="DESCRIPTION">Complete VGA Multiplexer 32-Pin TQFN EP</field>
+        <field name="PACKAGE">TQFN-32 Maxim</field>
+        <field name="PRICE">None</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/MAX4885ETJ+/Maxim+Integrated/view-part/?ref=eda</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/MAX4885ETJ+/Maxim+Integrated/view-part/?ref=snap</field>
+        <field name="MP">MAX4885ETJ+</field>
+        <field name="Availability">In Stock</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="Description">
+Analog Switch/Analog Multiplexer Seven 2:1 32-Pin TQFN EP Tube
+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{QP}" type="bidirectional"/>
+        <pin num="2" name="R0" type="bidirectional"/>
+        <pin num="3" name="G0" type="bidirectional"/>
+        <pin num="4" name="B0" type="bidirectional"/>
+        <pin num="5" name="H0" type="bidirectional"/>
+        <pin num="6" name="V0" type="bidirectional"/>
+        <pin num="7" name="DDCA0" type="bidirectional"/>
+        <pin num="8" name="DDCB0" type="bidirectional"/>
+        <pin num="9" name="~{EN}" type="input"/>
+        <pin num="10" name="VCL" type="power_in"/>
+        <pin num="11" name="V+" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="DDCA2" type="bidirectional"/>
+        <pin num="14" name="DDCB2" type="bidirectional"/>
+        <pin num="15" name="R2" type="bidirectional"/>
+        <pin num="16" name="G2" type="bidirectional"/>
+        <pin num="17" name="B2" type="bidirectional"/>
+        <pin num="18" name="H2" type="bidirectional"/>
+        <pin num="19" name="V2" type="bidirectional"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="V+" type="power_in"/>
+        <pin num="22" name="V1" type="bidirectional"/>
+        <pin num="23" name="H1" type="bidirectional"/>
+        <pin num="24" name="B1" type="bidirectional"/>
+        <pin num="25" name="G1" type="bidirectional"/>
+        <pin num="26" name="R1" type="bidirectional"/>
+        <pin num="27" name="DDCB1" type="bidirectional"/>
+        <pin num="28" name="DDCA1" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="V+" type="power_in"/>
+        <pin num="31" name="M" type="bidirectional"/>
+        <pin num="32" name="SEL" type="input"/>
+        <pin num="33" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="PI5A3157CEX" part="PI5A3157CEX">
+      <description>Multiplexer Switch ICs Low Voltage SPDT Analog Switch</description>
+      <docs>https://www.diodes.com/assets/Datasheets/PI5A3157.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PI5A3157CEX</field>
+        <field name="Footprint">SOT65P210X110-6N</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/PI5A3157.pdf</field>
+        <field name="Height">1.1</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">PI5A3157CEX</field>
+        <field name="Mouser Part Number">729-PI5A3157CEX</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PI5A3157CEX?qs=hFKXOjF5MkYOFZffF%2FEnpw%3D%3D</field>
+        <field name="Arrow Part Number">PI5A3157CEX</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pi5a3157cex/diodes-incorporated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="B0" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="VCC" type="passive"/>
+        <pin num="6" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SS-53000-001" part="SS-53000-001">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SS-53000-001</field>
+        <field name="Footprint">SS-53000-001:STEWART_SS-53000-001</field>
+        <field name="MF">Stewart Connector</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.18 mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SS-53000-001/Stewart+Connector/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">A0</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SS-53000-001/Stewart+Connector/view-part/?ref=snap</field>
+        <field name="MP">SS-53000-001</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4628816&amp;manufacturer=Stewart Connector&amp;part_name=SS-53000-001&amp;search_term=hdmi connector</field>
+        <field name="Description">
+HDMI Connector | Right Angle | Without Flange | -20C to 85C
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">BelFuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+        <pin num="S3" name="SHIELD" type="passive"/>
+        <pin num="S4" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/app/extensions/Library/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/app/extensions/Library/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MAX4885ETJ_">
+      <uri>/home/nold/git/kicad-collection/symbols-footprints/MAX4885ETJ_.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/app/extensions/Library/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="PI5A3157CEX">
+      <uri>/home/nold/git/kicad-collection/symbols-footprints/PI5A3157CEX/KiCad/PI5A3157CEX.kicad_sym</uri>
+    </library>
+    <library logical="SS-53000-001">
+      <uri>/home/nold/git/kicad-collection/symbols-footprints/SS-53000-001.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3v3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="VCC" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VCL" pintype="power_in"/>
+    </net>
+    <net code="2" name="5v">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="V+" pintype="power_in"/>
+      <node ref="U1" pin="21" pinfunction="V+" pintype="power_in"/>
+      <node ref="U1" pin="30" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="AL">
+      <node ref="J1" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="AR">
+      <node ref="J1" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="B">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="B2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="C1">
+      <node ref="IC1" pin="1" pinfunction="B1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="7" name="C2">
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="C3">
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="C4">
+      <node ref="J1" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="CHARGE">
+      <node ref="J1" pin="17" pinfunction="17" pintype="passive"/>
+      <node ref="J1" pin="18" pinfunction="18" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="19" pintype="passive"/>
+      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="G">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="G2" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="S3" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J1" pin="S4" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{QP}" pintype="bidirectional"/>
+      <node ref="U1" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="20" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="31" pinfunction="M" pintype="bidirectional"/>
+      <node ref="U1" pin="33" pinfunction="EP" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="~{EN}" pintype="input"/>
+    </net>
+    <net code="13" name="H">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="H2" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(IC1-A)">
+      <node ref="IC1" pin="4" pinfunction="A" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(IC1-B0)">
+      <node ref="IC1" pin="3" pinfunction="B0" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(U1-B0)">
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="B0" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(U1-B1)">
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="B1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="Net-(U1-G0)">
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="G0" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(U1-G1)">
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="G1" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Net-(U1-H0)">
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="H0" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="Net-(U1-H1)">
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="H1" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="Net-(U1-R0)">
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="R0" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Net-(U1-R1)">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="R1" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(U1-V0)">
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="V0" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(U1-V1)">
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="V1" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="R">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="R2" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="SENSE">
+      <node ref="IC1" pin="6" pinfunction="S" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="SEL" pintype="input"/>
+    </net>
+    <net code="28" name="V">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="V2" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(U1-DDCA0-Pad7)">
+      <node ref="U1" pin="7" pinfunction="DDCA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-DDCA1-Pad28)">
+      <node ref="U1" pin="28" pinfunction="DDCA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-DDCA2-Pad13)">
+      <node ref="U1" pin="13" pinfunction="DDCA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-DDCB0-Pad8)">
+      <node ref="U1" pin="8" pinfunction="DDCB0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-DDCB1-Pad27)">
+      <node ref="U1" pin="27" pinfunction="DDCB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-DDCB2-Pad14)">
+      <node ref="U1" pin="14" pinfunction="DDCB2" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
